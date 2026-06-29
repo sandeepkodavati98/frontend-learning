@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <header>
+        <h1>Student Registration Form</h1>
+        <hr>
+    </header>
+    <main>
+        <section id="personalinformation">
+            <form action="#" method="post">
+                <fieldset>
+                    <legend><h2>Personal Information</h2></legend>
+                    <label for="fullname">Name:</label>
+                    <input id="fullname" name="fullname" type="text" placeholder="Enter your Full Name" autocomplete="name" required>
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <input id="email" name="email" type="email" placeholder="Enter your Email address" autocomplete="email" required>
+                    <br><br>
+                    <label for="password">Password:</label>
+                    <input id="password" name="password" type="password" placeholder="Enter your password" autocomplete="new-password" required>
+                    <br><br>
+                    <label for="confirmpassword">Confirm Password:</label>
+                    <input id="confirmpassword" name="confirmpassword" type="password" placeholder="Re-Enter your password" autocomplete="new-password" required>
+                    <br><br>
+                    <label for="tel">Phone Number:</label>
+                    <input
+                        type="tel"
+                        id="tel"
+                        name="tel"
+                        maxlength="10"
+                        pattern="[0-9]{10}"
+                        placeholder="Enter your 10-digit phone number"
+                        required
+                        autocomplete="tel"
+                    >
+                    <br><br>
+                    <label for="dob">Date of Birth:</label>
+                    <input id="dob" name="dob" type="date" required>
+                    <br><br>
+                    <label for="gender">Gender:</label>
+                    <input type="radio" name="gender" id="male"  value="Male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female" required>
+                    <label for="female">Female</label>
+                </fieldset>
+                <br><br>
+                <fieldset>
+                    <legend><h2>Skills</h2></legend>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="html" name="skills" value="HTML" >
+                            <label for="html">HTML</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="css" name="skills" value="CSS">
+                            <label for="css">CSS</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+                            <label for="javascript">JavaScript</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <br>
+                <br>
+                <fieldset>
+                    <legend><h2>Other Information</h2></legend>
+                    <label for="color">Favorite Color:</label>
+                    <input id="color" name="color" type="color">
+                    <br><br>
+                    <label for="profilepicture">Profile:</label>
+                    <input type="file" name="profilepicture" id="profilepicture">
+                    <br><br>
+                    <label for="about">About Yourself:</label>
+                    <br>
+                    <textarea name="about" id="about" cols="30" rows="10" placeholder="Tell me about yourself"></textarea>
+                    <br><br>
+                    <label for="college">College:</label>
+                    <select name="college" id="college">
+                        <option value="" selected disabled>Select your college</option>
+                        <option value="Aditya University">Aditya University</option>
+                        <option value="GIET University">GIET University</option>
+                        <option value="Pragathi Engineering College">Pragathi Engineering College</option>
+                    </select>
+                    <br><br>
+                    <label for="experience">Experience:</label>
+                    <br>
+                    <input type="radio" id="beginner" name="experience" value="Beginner">
+                    <label for="beginner">Beginner</label>
+                    <br>
+                    <input type="radio" id="intermediate" name="experience" value="Intermediate">
+                    <label for="intermediate">Intermediate</label>
+                    <br>
+                    <input type="radio" id="advanced" name="experience" value="Advanced">
+                    <label for="advanced">Advanced</label>
+                    <br>
+                    <br>
+                </fieldset>
+                <br><br>
+                <button type="submit">Submit</button> | 
+                <button type="reset">Reset</button>
+
+                
+
+            </form>
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <p>Made by Sandeep &copy; 2026</p>
+    </footer>
+</body>
+</html>

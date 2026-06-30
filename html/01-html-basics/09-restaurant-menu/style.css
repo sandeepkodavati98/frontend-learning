@@ -12,3 +12,8 @@ nav a{
     color: white;
     text-decoration: none;
 }
+
+main img{
+    border-radius: 8px;
+    border-style: groove;
+}

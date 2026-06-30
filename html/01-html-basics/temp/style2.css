@@ -1,0 +1,30 @@
+#nav_header{
+    background-color: rgb(39, 194, 255);
+}
+
+tbody, tfoot{
+    background-color: rgba(255, 240, 222, 0.874);
+}
+
+nav{
+    background-color: rgba(255, 240, 222, 0.874);
+}
+
+
+#section_1_heading{
+    background-color: rgb(152, 220, 247);
+}
+
+thead{
+    background-color: rgba(123, 104, 249, 0.571);
+}
+
+a[target="_self"]{
+    text-decoration: none;
+    color: black;
+    background-color: rgba(123, 104, 249, 0.571);
+    border-radius: 2px;
+    padding: 4px;
+}
+
+

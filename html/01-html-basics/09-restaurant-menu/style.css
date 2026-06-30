@@ -1,0 +1,14 @@
+body{
+    background-color: #FFF8E7;
+    color: #333;
+}
+
+header{
+    background-color: #D35400;
+    color: white;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
